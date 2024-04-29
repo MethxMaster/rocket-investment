@@ -11,6 +11,7 @@ export default function Navbar(){
                 <div className={styles['nav-left-part']}>
                     <div className={styles['nav-logo']}>
                         <Link href='/'><div>Rocket Investment</div></Link>
+                        {/* <Image src="/logo.png" alt='dfd' width={200} height={50}/> */}
                     </div>
                     <div className={styles['nav-list']}>
                         <Link href='/'><div className={styles['nav-list-item']}>หน้าหลัก</div></Link>
