@@ -10,7 +10,6 @@
     padding-bottom: 64px;
     /* border: 1px solid red; */
     color: white;
-
     box-shadow: 0px 0px 30px 30px rgb(235,235,235);
 }
 .footer-logo{
@@ -36,7 +35,7 @@
     color: white;
     margin-left: 32px;
     margin-right: 32px;
-
+    
     transition-property: color;
     transition-duration: 0.25s;
     transition-timing-function: ease-out;
@@ -45,3 +44,7 @@
 .foot-list a:hover{
     color:rgb(50, 189, 124);
 }
+
+
+
+
