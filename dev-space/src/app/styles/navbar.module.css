@@ -29,11 +29,17 @@
     padding-right:72px;
     /* border: 1px solid red; */
 }
+.head-logo{
+    border: 1px solid red;
+    padding-left: 8px;
+    padding-right: 8px;
+}
 .nav-logo a{
     text-decoration: none;
     color: black;
     font-weight: bold;
     font-size: 1.5rem;
+    margin-left: 12px;
     /* border: 1px solid red; */
 
     transition-property: color;

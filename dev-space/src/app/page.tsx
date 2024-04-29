@@ -9,7 +9,15 @@ export default function Home() {
         {/* EMPTY BOX */}
       </div>
       <div className={contentStyles['content-container']}>
-        <h1>Home page</h1>
+        <div className={contentStyles['content-blog']}>
+          blog 1
+        </div>
+        <div className={contentStyles['content-blog']}>
+          blog 2
+        </div>
+        <div className={contentStyles['content-blog']}>
+          blog 3
+        </div>
       </div>
     </main>
   );
