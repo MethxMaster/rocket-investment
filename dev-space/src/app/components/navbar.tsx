@@ -10,7 +10,7 @@ export default function Navbar(){
             <nav className={styles['nav-container']}>
                 <div className={styles['nav-left-part']}>
                     <div className={styles['nav-logo']}>
-                        <Link href='/'><div className={styles['nav-list-item']}>Rocket Investment</div></Link>
+                        <Link href='/'><div>Rocket Investment</div></Link>
                     </div>
                     <div className={styles['nav-list']}>
                         <Link href='/'><div className={styles['nav-list-item']}>หน้าหลัก</div></Link>
