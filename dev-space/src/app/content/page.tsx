@@ -9,7 +9,9 @@ export default function Content() {
         {/* EMPTY BOX */}
       </div>
       <div className={contentStyles['content-container']}>
-        <h1>Content space</h1>
+        <div className={contentStyles['content-blog']}>
+          Content
+        </div>
       </div>
     </main>
   );

@@ -1,11 +1,12 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import footerStyles from '@/app/styles/footer.module.css'
 export default function Footer(){
     return (
         <div className={footerStyles['footer-container']}>
             
             <div className={footerStyles['footer-logo']}>
-                <h1>LOGO</h1>
+                <Image src='/rocket-logo.png' alt='rocket investment' width={100} height={56}/>
             </div>
             <div className={footerStyles['footer-item']}>
                 <div className={footerStyles['foot-list']}>

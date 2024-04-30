@@ -11,7 +11,7 @@ export default function Navbar(){
                 <div className={styles['nav-left-part']}>
                     <div className={styles['nav-logo']}>
                         <div className={styles['head-logo']}>
-                            <h1>LOGO</h1>
+                            <Image src='/rocket-logo.png' alt='rocket investment' width={100} height={56}/>
                         </div>
                         <Link href='/'><div>Rocket Investment</div></Link>
                         {/* <Image src="/logo.png" alt='dfd' width={200} height={50}/> */}

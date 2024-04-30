@@ -9,7 +9,9 @@ export default function About() {
         {/* EMPTY BOX */}
       </div>
       <div className={contentStyles['content-container']}>
-        <h1>About us</h1>
+        <div className={contentStyles['content-blog']}>
+          About us
+        </div>
       </div>
     </main>
   );

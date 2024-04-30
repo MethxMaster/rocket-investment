@@ -10,13 +10,7 @@ export default function Home() {
       </div>
       <div className={contentStyles['content-container']}>
         <div className={contentStyles['content-blog']}>
-          blog 1
-        </div>
-        <div className={contentStyles['content-blog']}>
-          blog 2
-        </div>
-        <div className={contentStyles['content-blog']}>
-          blog 3
+          Home
         </div>
       </div>
     </main>

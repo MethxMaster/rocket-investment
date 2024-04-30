@@ -13,7 +13,7 @@
     box-shadow: 0px 0px 30px 30px rgb(235,235,235);
 }
 .footer-logo{
-    border: 1px solid orangered;
+    /* border: 1px solid orangered; */
     display: flex;
     /* width: 100%; */
 }
